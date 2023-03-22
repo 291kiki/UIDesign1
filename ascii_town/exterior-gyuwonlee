@@ -1,4 +1,11 @@
-                                   ___
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Ascii Town: gyuwonlee</title>
+  </head>
+  <body>
+  <a href=”exterior-gyuwonlee.html” style="text-decoration: none">
+    <pre>
    '.    \   :   /    .'          /   """`        -""`---.._
      '.   \  :  /   .'           /        -"`"""`           ""``.
        '.  \ : /  .'            /                                 \
@@ -18,3 +25,7 @@
 ._.-------------------------------------------------------------------._.
         Gyuwon: "This is the house I want to stay in this summer!"
 ._.-------------------------------------------------------------------._.
+    </pre>
+  </a>  
+  </body>
+</html>                                   ___

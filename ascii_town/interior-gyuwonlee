@@ -1,3 +1,11 @@
+<!DOCTYPE html>
+<html>
+  <head>
+        <title>Ascii Town: gyuwonlee</title>
+  </head>
+  <body>
+  <a href=”interior-gyuwonlee.html” style="text-decoration: none">
+    <pre>
           ((********************************************************))
           ((}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*{}*)) 
           ((                                                        ))
@@ -46,3 +54,8 @@
             ▒█                  ▒█          ▒█                 ▒█ 
             ▒█                  ▒█          ▒█                 ▒█
           ▒█  ▒█               ▒█            ▒█              ▒█  ▒█  
+
+    </pre>
+  </a>
+  </body>
+</html>
