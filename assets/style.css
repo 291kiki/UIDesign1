@@ -7,12 +7,14 @@
 /* adjusting fonts */
 
 body {
+	background-color: lightgoldenrodyellow;
+	color: hotpink;
 	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
 	transition: background 500ms ease;
 }
-
+background:
 p, li {
-	font-size:  22px;
+	font-size:  16px;
 	line-height: 30px;
 }
 
@@ -25,7 +27,9 @@ p, li {
 h1, p {
 	margin-bottom:  20px;
 }
-
+.cursive {
+    font-family: cursive;
+}
 ul, ol {
 	margin-left: 20px;
 }
@@ -33,6 +37,10 @@ ul, ol {
 img {
 	max-width: 100%;
 	height:  auto;
+}
+
+.darkmode {
+	background-color: darkblue;
 }
 
 /* uncomment the code below to set the grid */
