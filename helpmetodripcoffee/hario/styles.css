@@ -1,0 +1,66 @@
+/*landing page-hario css*/
+body {
+    background-color: #636058;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-family: 'Mario', sans-serif;
+    font-size: 60pt;
+    text-align: center;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.button {
+    width: 200px;
+    height: 100px;
+    margin: 15px;
+    cursor: pointer;
+    border: 3px solid #FAFAFA;
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1);
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.buttondarkroasting {
+    background-color: #270F05;
+    font-family: 'Mario', sans-serif;
+}
+
+.buttonlightroasting {
+    background-color: #E4D5AE;
+    font-family: 'Mario', sans-serif;
+}
+
+
+.button a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 100%;
+    height: 100%;
+    color: #FAFAFA;
+    text-decoration: none;
+}
+
+.button span {
+    font-style: italic;
+    font-size: 20pt;
+    text-align: center;
+    text-decoration: none;
+}
+

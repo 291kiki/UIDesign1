@@ -12,6 +12,11 @@ body {
 	font-family: -apple-system, BlinkMacSystemFont, helvetica, arial, sans-serif;
 	transition: background 500ms ease;
 }
+@media only screen and (max-device-width: 812px) { 
+    body {
+    	background: skyblue;
+	}
+}
 background:
 p, li {
 	font-size:  16px;
@@ -66,3 +71,6 @@ body {
 #right-column {
 	background: #333;
 }*/
+@media only screen and (max-device-width: 812px) { 
+    // your css goes here
+}

@@ -1,0 +1,19 @@
+body {
+  display: flex;
+  background-color: lightskyblue;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  flex-direction: column;
+}
+
+h1 {
+  margin-top: 0;
+}
+
+.image {
+  margin-top: 60px;
+  margin-bottom: 20px;
+  max-width: 150px;
+ box-shadow: 0 0px 50px deeppink;
+}
