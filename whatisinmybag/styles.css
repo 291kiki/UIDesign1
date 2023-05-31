@@ -3,6 +3,7 @@ body {
   background-color: lightskyblue;
   justify-content: center;
   align-items: center;
+  font-family: "Your Serif Font", serif;
   height: 100vh;
   flex-direction: column;
 }
