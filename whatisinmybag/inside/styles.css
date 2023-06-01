@@ -16,6 +16,7 @@ body {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
       gap: 20px;
+      magin: 20px 20px 20px 20px;
     }
     
     .grid-item {
@@ -26,7 +27,7 @@ body {
     }
     
     .image {
-      max-width: 200px;
+      max-width: 150px;
       margin: 50px 25px 5px 25px;
       box-shadow: 0 0px 30px lightyellow;
     }
