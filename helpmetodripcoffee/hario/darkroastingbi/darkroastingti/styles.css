@@ -128,133 +128,155 @@
     z-index: 1;
 }
 #text1 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25000ms;
+  animation: fade 24s;
   animation-iteration-count: 1;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text2 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 20000ms ;
+  animation: fade 19s ;
   animation-iteration-count: 1;
-  animation-delay: 20000ms;
+  animation-delay: 25s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 20%;
   text-align: center;
   z-index: 11;
 }
 #text3 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 45000ms;
+  animation-delay: 45s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text4 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 70000ms;
+  animation-delay: 70s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text5 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 95000ms;
+  animation-delay: 95s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text6 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 120000ms;
+  animation-delay: 120s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text7 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 145000ms;
+  animation-delay: 145s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text8 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 170000ms;
+  animation-delay: 170s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text9 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 195000ms;
+  animation-delay: 195s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
 }
 #text10 {
-  font-size: 60px;
+  font-size: 150px;
+  font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 25s ;
+  animation: fade 24s ;
   animation-iteration-count: 1;
-  animation-delay: 220000ms;
+  animation-delay: 220s;
   position: absolute;
-  top: 50%;
-  left: 50%;
+  top: 20%;
+  left: 30%;
   text-align: center;
   z-index: 11;
+}
+#link-button {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  font-family: Courier New, sans-serif;
+  transform: translateX(-50%);
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  z-index: 11;
+}
 }
 .water {
   opacity: 1;
@@ -282,6 +304,6 @@
     opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 0.2;
   }
 }
