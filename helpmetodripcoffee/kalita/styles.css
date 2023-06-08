@@ -1,6 +1,5 @@
-/*landing page css*/
 body {
-    background-color: #CCBD96;
+    background-color: #D9D9D9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,11 +10,23 @@ body {
 }
 
 h1 {
-    font-family: Garamond, serif;
+    font-family: brioso-pro, serif;
+    font-style: bold;
+    font-weight: 500;
     font-size: 60pt;
     text-align: center;
 }
-
+#link-button {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  font-family: helvetica, sans-serif;
+  transform: translateX(-50%);
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  z-index: 11;
+}
 .button-container {
     display: flex;
     justify-content: center;
@@ -28,34 +39,27 @@ h1 {
     margin: 15px;
     cursor: pointer;
     border: 3px solid #FAFAFA;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 100);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1);
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.buttonhario {
-    background-color: #636058;
-    font-family: 'helvetica', sans-serif;
-}
-
-.buttonmelitta {
-    background-color: #526947;
-    font-family: 'Melina', cursive;
-}
-
-.buttonkalita {
-    background-color: #D9D9D9;
+.buttondarkroasting {
+    background-color: #726570;
     font-family: brioso-pro, serif;
     font-style: normal;
-    font-weight: 500;
+          font-weight: 500;
 }
 
-.buttonkono {
-    background-color: #B39D6D;
-    font-family: 'Kono', monospace;
+.buttonlightroasting {
+    background-color: #F5E6F4;
+    font-family: brioso-pro, serif;
+    font-style: normal;
+          font-weight: 500;
 }
+
 
 .button a {
     display: flex;
@@ -70,7 +74,8 @@ h1 {
 
 .button span {
     font-style: italic;
-    font-size: 30pt;
+    font-size: 20pt;
     text-align: center;
     text-decoration: none;
 }
+

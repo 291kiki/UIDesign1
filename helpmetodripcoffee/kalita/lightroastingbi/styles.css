@@ -1,6 +1,5 @@
-/*landing page css*/
 body {
-    background-color: #CCBD96;
+    background-color: #636058;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -11,15 +10,30 @@ body {
 }
 
 h1 {
-    font-family: Garamond, serif;
-    font-size: 60pt;
+    font-family: 'Mario', sans-serif;
+    font-size: 50pt;
     text-align: center;
+    margin-bottom: 0px;
 }
-
+p {
+    font-family: 'Mario', sans-serif;
+    font-size: 20pt;
+    text-align: center;
+    margin: 10px 0px 10px 0px;
+}
+#container {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 70px;
+    padding: 20px 40px 20px 40px;
+    border: 1px solid #FAFAFA;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+}
 .button-container {
     display: flex;
     justify-content: center;
-    margin-top: 100px;
+    margin-top: 0px;
 }
 
 .button {
@@ -28,33 +42,16 @@ h1 {
     margin: 15px;
     cursor: pointer;
     border: 3px solid #FAFAFA;
-    box-shadow: 0 0 30px rgba(255, 255, 255, 100);
+    box-shadow: 0 0 30px rgba(255, 255, 255, 1);
     border-radius: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
-.buttonhario {
-    background-color: #636058;
-    font-family: 'helvetica', sans-serif;
-}
-
-.buttonmelitta {
-    background-color: #526947;
-    font-family: 'Melina', cursive;
-}
-
-.buttonkalita {
-    background-color: #D9D9D9;
-    font-family: brioso-pro, serif;
-    font-style: normal;
-    font-weight: 500;
-}
-
-.buttonkono {
-    background-color: #B39D6D;
-    font-family: 'Kono', monospace;
+.buttonstart {
+    background-color: #270F05;
+    font-family: 'Mario', sans-serif;
 }
 
 .button a {
@@ -70,7 +67,8 @@ h1 {
 
 .button span {
     font-style: italic;
-    font-size: 30pt;
+    font-size: 20pt;
     text-align: center;
     text-decoration: none;
 }
+
