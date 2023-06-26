@@ -13,7 +13,7 @@
   height: 100%;
   background-color: #95DCEC;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
+  animation: shrink 15s forwards;
   z-index: 10;
 
 }
@@ -26,8 +26,8 @@
   height: 100%;
   background-color: #636058;
   transform-origin: top right;
-  animation: shrink 20000ms forwards;
-  animation-delay: 24000ms;
+  animation: shrink 14.9s forwards;
+  animation-delay: 15s;
   z-index: 9;
 
 }
@@ -39,8 +39,8 @@
   height: 100%;
   background-color: #95DCEC;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-  animation-delay: 44000ms;
+  animation: shrink 14.9s forwards;
+  animation-delay: 30s;
   z-index: 8;
 }
 #shape4 {
@@ -51,8 +51,8 @@
   height: 100%;
   background-color: #636058;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 69000ms;
+  animation: shrink 14.9s forwards;
+    animation-delay: 45s;
     z-index: 7;
 }
 #shape5 {
@@ -63,8 +63,8 @@
   height: 100%;
   background-color: #95DCEC;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 94000ms;
+  animation: shrink 14.9s forwards;
+    animation-delay: 60s;
     z-index: 6;
 }
 #shape6 {
@@ -75,8 +75,8 @@
   height: 100%;
   background-color: #636058;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 119000ms;
+  animation: shrink 14.9s forwards;
+    animation-delay: 75s;
     z-index: 5;
 }
 #shape7 {
@@ -87,8 +87,8 @@
   height: 100%;
   background-color: #95DCEC;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 144000ms;
+  animation: shrink 14.9s forwards;
+    animation-delay: 100s;
     z-index: 4;
 }
 #shape8 {
@@ -99,8 +99,8 @@
   height: 100%;
   background-color: #636058;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 169000ms;
+  animation: shrink 14.9s forwards;
+    animation-delay: 115s;
     z-index: 3;
 }
 #shape9 {
@@ -111,8 +111,8 @@
   height: 100%;
   background-color: #95DCEC;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 194000ms;
+  animation: shrink 14.9ms forwards;
+    animation-delay: 130s;
     z-index: 2;
 }
 #shape10 {
@@ -123,8 +123,8 @@
   height: 100%;
   background-color: #636058;
   transform-origin: top right;
-  animation: shrink 25000ms forwards;
-    animation-delay: 219000ms;
+  animation: shrink 14.9s forwards;
+    animation-delay: 145s;
     z-index: 1;
 }
 #text1 {
@@ -132,7 +132,7 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s;
+  animation: fade 14.9s;
   animation-iteration-count: 1;
   position: absolute;
   top: 20%;
@@ -145,9 +145,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 19s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 25s;
+  animation-delay: 15s;
   position: absolute;
   top: 20%;
   left: 20%;
@@ -159,9 +159,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 45s;
+  animation-delay: 30s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -173,9 +173,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 70s;
+  animation-delay: 45s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -187,9 +187,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 95s;
+  animation-delay: 60s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -201,9 +201,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 120s;
+  animation-delay: 75s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -215,9 +215,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 145s;
+  animation-delay: 100s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -229,9 +229,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 170s;
+  animation-delay: 115s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -243,9 +243,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 195s;
+  animation-delay: 130s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -257,9 +257,9 @@
   font-family: optima, "Times New Roman", serif;
   opacity: 0;
   text-shadow: 0 0 5px rgba(255, 255, 255, 255);
-  animation: fade 24s ;
+  animation: fade 14.9s ;
   animation-iteration-count: 1;
-  animation-delay: 220s;
+  animation-delay: 145s;
   position: absolute;
   top: 20%;
   left: 30%;
@@ -270,7 +270,7 @@
   position: absolute;
   top: 20px;
   left: 50%;
-  font-family: Courier New, sans-serif;
+  font-family: helvetica, sans-serif;
   transform: translateX(-50%);
   font-size: 20px;
   text-decoration: underline;

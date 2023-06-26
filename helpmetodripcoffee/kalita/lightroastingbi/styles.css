@@ -1,5 +1,5 @@
 body {
-    background-color: #636058;
+    background-color: #D9D9D9;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -10,16 +10,27 @@ body {
 }
 
 h1 {
-    font-family: 'Mario', sans-serif;
+    font-family: brioso-pro, serif;
     font-size: 50pt;
     text-align: center;
     margin-bottom: 0px;
 }
 p {
-    font-family: 'Mario', sans-serif;
+    font-family: brioso-pro, serif;
     font-size: 20pt;
     text-align: center;
     margin: 10px 0px 10px 0px;
+}
+#link-button {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  font-family: helvetica, sans-serif;
+  transform: translateX(-50%);
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  z-index: 11;
 }
 #container {
     display: flex;
@@ -50,8 +61,8 @@ p {
 }
 
 .buttonstart {
-    background-color: #270F05;
-    font-family: 'Mario', sans-serif;
+    background-color: #DBB8D7;
+    font-family: brioso-pro, serif;
 }
 
 .button a {

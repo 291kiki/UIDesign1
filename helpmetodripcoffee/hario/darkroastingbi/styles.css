@@ -21,6 +21,17 @@ p {
     text-align: center;
     margin: 10px 0px 10px 0px;
 }
+#link-button {
+  position: absolute;
+  top: 20px;
+  left: 50%;
+  font-family: helvetica, sans-serif;
+  transform: translateX(-50%);
+  font-size: 20px;
+  text-decoration: underline;
+  color: black;
+  z-index: 11;
+}
 #container {
     display: flex;
     justify-content: center;
