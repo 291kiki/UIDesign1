@@ -1,0 +1,35 @@
+/* 화면 전체를 채우도록 설정 */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* 정물화 컨테이너 스타일 */
+.painting {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: #eee;
+}
+
+/* 책 스타일 */
+.book {
+    width: 300px;
+    height: 400px;
+    background-color: #fae7b5;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    margin-right: 100px;
+    rotate: 90;
+}
+
+/* 화분 스타일 */
+.flowerpot {
+    width: 200px;
+    height: 300px;
+    background-color: #8acaaa;
+    border-radius: 50px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
